@@ -1,32 +1,32 @@
 {
   "name": "gifted-md@v5.0.0",
-  "description": "I am Gifted-Md Whatsapp MultiDevice Whatsapp Bot built in NodeJs to make experience better",
+  "description": "Dave's gifted md bot",
   "website": "https://web.giftedtechnexus.co.ke",
-  "repository": "https://github.com/mouricedevs/gifted-md",
-  "logo": "https://telegra.ph/file/a202f454c9532c3f5b7f8.jpg",
-  "keywords": ["gifted-md", "giftedtech", "Gifted-Md"],
+  "repository": "https://github.com/Davemiracle01/Gifted-Md",
+  "logo": "https://telegra.ph/file/a7b0a01d1e36845baf5bd.jpg",
+  "keywords": ["gifted $dave-md", "giftedtech daves repo", "Gifted -Md Dave's repo"],
   "success_url": "/",
   "stack": "heroku-24",
   "env": { 
     "MODE": {
       "description": "Put Mode either public or private",
       "required": true,
-      "value": "private"
+      "value": "public"
     },
      "OWNER_NAME": {
       "description": "Put the name of Bot Owner",
       "required": false,
-      "value": "GIFTED TECH"
+      "value": "DAVE"
     },
     "SESSION_ID": {
       "description": "Put Your SESSION_ID Here. It must startwithGifted~",
       "required": true,
-      "value": ""
+      "value": "Gifted~9XKfTj7E"
     },
     "OWNER_NUMBER": {
       "description": "Put Bot Owner Number",
       "required": false,
-      "value": "254110853827"
+      "value": "2540114127157"
     },
      "NOT_ALLOW": {
       "description": "Put value true to disable bot in pm during public mode.",
@@ -36,7 +36,7 @@
      "WELCOME": {
       "description": "Put true or false to enableand disable group welcoming and goodbye messages",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "AUTO_READ_STATUS": {
       "description": "Put true if you want bot to view status",
@@ -86,7 +86,7 @@
     "PREFIX": {
       "description": "You can leave blank for bot to use multiple prefixes",
       "required": false,
-      "value": "."
+      "value": ","
     },
      "DEPLOYMENT_PLATFORM": {
       "description": "Leave the value to default unless otherwise. ",
